@@ -182,11 +182,24 @@ function compareProductByRating(prodA,prodB){
     return prodA.rating - prodB.rating
 }
 
-// customSelSort(products,compareProductByPrice)
-// console.log(products)
+customSelSort(products,compareProductByPrice)
+console.log(products)
 
 // customSelSort(products,compareProductByRating)
 // console.log(products)
 
-products.sort(compareProductByPrice)
-console.log(products)
+// products.sort(compareProductByPrice)
+// console.log(products)
+
+let arr_num = [200,100,50,150,125] // "200"
+// sort in ascending order
+function compare(a,b){
+    return b-a; // +ve or -ve or 0
+}
+arr_num.sort(compare)
+console.log(arr_num)
+
+//sort in descending order
+
+
+
